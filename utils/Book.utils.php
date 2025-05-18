@@ -16,9 +16,9 @@
         echo "<h2>Books: </h2><ul>";
         foreach($catalogue as $book){
             echo "<li>
-                ID: {$book['id']}, 
-                Title: {$book['title']}, 
-                Author: {$book['author']}, 
+                ID: {$book['id']}<br> 
+                Title: {$book['title']}<br> 
+                Author: {$book['author']}<br> 
                 Year: {$book['year']}
             </li>";
         }

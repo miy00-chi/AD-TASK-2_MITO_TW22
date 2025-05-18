@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Atkinson+Hyperlegible+Mono:ital@0;1&family=Borel&family=Bubbler+One&family=Cherry+Bomb+One&family=Crafty+Girls&family=Fuzzy+Bubbles:wght@400;700&family=Hachi+Maru+Pop&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Poppins&family=Rubik+Puddles&family=Share+Tech+Mono&family=Sono:wght@200..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sono", monospace;
+     font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "MONO" 1;
+}
+
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/img/bg2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: rgb(255 255 255 / 30%);
+    text-align: center;
+    width: 50%;
+    height: 80%;
+    max-width: 12000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.container h1{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #2E5077;
+}
+
