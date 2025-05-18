@@ -8,8 +8,8 @@
         ];
     }
 
-    function addBook($catalogue, $book){
-        $catalogue[$book['id']] = book;
+    function addBook(array &$catalogue, array $book){
+        $catalogue[]= $book;
     }
 
     function printCatalogue($catalogue){
