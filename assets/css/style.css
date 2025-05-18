@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Atkinson+Hyperlegible+Mono:ital@0;1&family=Borel&family=Bubbler+One&family=Cherry+Bomb+One&family=Crafty+Girls&family=Fuzzy+Bubbles:wght@400;700&family=Hachi+Maru+Pop&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Poppins&family=Rubik+Puddles&family=Share+Tech+Mono&family=Sono:wght@200..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sono", monospace;
+     font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "MONO" 1;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/img/bg2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: rgb(255 255 255 / 30%);
+    text-align: center;
+    width: 50%;
+    height: 60%;
+    max-width: 12000px;
+    margin: 200px auto;
+    padding: 20px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    backdrop-filter: blur(10px);
+
+}
+
+.container h1{
+    margin-top: 90px;
+    padding: 20px;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #2E5077;
+}
+
+.container h4{
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #2E5077;
+}
+
+.container .link a{
+    background-color: #79D7BE;
+    color: #2E5077;
+    width: 100px;
+    margin-top: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-weight: 900;
+}
+
+.container .link a:hover{
+    color: #79D7BE;
+    background-color: #2E5077;
+}
+
