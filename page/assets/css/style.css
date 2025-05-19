@@ -24,22 +24,89 @@ body{
 }
 
 .container{
-    background-color: rgb(255 255 255 / 30%);
-    text-align: center;
+    background-color: rgb(255 255 255 / 40%);
     width: 50%;
-    height: 80%;
     max-width: 12000px;
-    margin: 20px auto;
+    margin: 50px auto;
     padding: 20px;
     border-radius: 30px;
     backdrop-filter: blur(10px);
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .container h1{
+    text-align: center;
     margin-top: 20px;
     padding: 20px;
     font-size: 50px;
     margin-bottom: 0;
     color: #2E5077;
+}
+
+.book-list, .author-list{
+    margin-left: 30px;
+    margin-bottom: 4px;
+}
+
+hr#one {
+  width: 50%;
+  margin: 1em auto;
+}
+
+.book-list h2{
+    color: #2E5077;
+}
+
+.book-list h4{
+    color: #2E5077;
+}
+
+.book-list p{
+    font-weight: 600;
+    color: #4DA1A9;
+}
+
+.book-list, .author-list{
+    margin-left: 30px;
+    margin-bottom: 4px;
+}
+
+hr#one {
+  width: 50%;
+  margin: 1em auto;
+}
+
+.author-list h2{
+    color: #2E5077;
+}
+
+.author-list h4{
+    color: #2E5077;
+}
+
+.author-list p{
+    font-weight: 600;
+    color: #4DA1A9;
+}
+
+.container a{
+    background-color: #79D7BE;
+    color: #2E5077;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-weight: 900;
+    margin: 310px;
+}
+
+.container a:hover{
+    color: #79D7BE;
+    background-color: #2E5077;
 }
 

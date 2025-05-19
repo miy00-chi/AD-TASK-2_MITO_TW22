@@ -11,7 +11,7 @@
         <h1>WELCOME TO YOUR LIBRARY</h1>
         <h4>Escape your fantasies for the day</h4>
         <div class="link">
-            <a href="page\index.php">Start</a>
+            <a href="page\main.php">Start</a>
         </div>
     </div>
 </body>

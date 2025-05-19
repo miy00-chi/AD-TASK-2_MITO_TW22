@@ -4,8 +4,8 @@
         echo '<h2>BOOKS:</h2><br>';
         foreach($catalogue as $book){
             echo '<div class = "book">';
-            echo '<h4>'.htmlspecialchars($book["title"]).'</h4>';
-            echo '<p>'.htmlspecialchars($book["year"]).'</p>';
+            echo '<h4>'.htmlspecialchars($book["id"]).'-'.htmlspecialchars($book["title"]).'</h4>';
+            echo '<p>'.htmlspecialchars($book["year"]).'-'.htmlspecialchars($book["author"]).'</p>';
             echo '</div>';
         }
         echo '</div>';
@@ -21,5 +21,4 @@
         }
         echo '</div>';
     }
-        
 ?>
